@@ -137,6 +137,10 @@ my-app/
     index.html
     favicon.ico
   src/
+    Components/
+      Board.js
+      Game.js
+      Square.js
     App.css
     App.js
     App.test.js
