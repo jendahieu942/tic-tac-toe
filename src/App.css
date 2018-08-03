@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+}
+.game {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: aqua;
+  position: relative;
+}
+.board {
+  display: grid;
+  justify-content: right;
+  background-color: aqua;
+  padding-right: 1px;
+}
+.control {
+  display: grid;
+  justify-content: center;
+  background-color: aqua;
+}
+.restart-bt {
+  width: 120px;
+  height: 30px;
+  background: brown;
+  color: beige;
+  font-size: 1.5em;
+  border: 1px solid blueviolet;
+  border-radius: 15px;
+  margin-top: 100px; 
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(5, 50px);
+}
+.square {
+  background-color: aquamarine;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  font-size: 3em;
+}
+.main-view {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.score-view {
+  background-color: #a3f0a3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.score-view div {
+  font-size: 3em;
+}
